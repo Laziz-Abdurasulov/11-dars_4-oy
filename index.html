@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="mobil">
+<div class="left">
+<h1 class="title">Weather forecast</h1>
+<div class="box">
+ <input type="text" id="city" placeholder="Enter city name (English)"/>
+ <button id="cityB" onclick="showDateTime();">OK</button>
+</div>
+<select  class="select" name="cityes">  
+    <option selected value="Tashkent">Tashkent</option>
+	<option value="Bukhara">Bukhara</option>
+	<option value="Samarkand">Samarkand</option>	
+    <option value="Khorezm">Khorezm</option>
+	<option value="Ferghana">Ferghana</option>
+	<option value="Kokan">Kokan</option>
+	<option value="Khiva">Khiva</option>	
+    <option value="Andijan">Andijan</option>
+</select>  
+		
+	
+	<div id="tablo">            
+		<div class="day">
+			  <img id="tmp4"/><br>
+			 <p id="day1"></p>
+			 <div id="demo7"></div>
+			 <div id="demo5" ></div>
+			 <div id="demo6"></div>
+			 <div id="demo4"></div>
+		</div>
+
+		
+  </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
